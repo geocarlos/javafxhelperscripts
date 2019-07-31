@@ -1,0 +1,1 @@
+echo `javac -d $OUTPUT_FOLDER --module-path $PATH_TO_FX --add-modules javafx.controls $JAVA_FILES`
