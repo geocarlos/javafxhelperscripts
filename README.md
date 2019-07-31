@@ -7,13 +7,6 @@ This set of script may help you build and run JavaFX apps using JDK 11 or 12.
 
 They have been tested with OpenJDK 12 and JavaFX SDK 11.0.2 
 
-These are my JDK settings in VS Code `settings.json`:
-
-`"java.dependency.packagePresentation": "hierarchical",`
-`"java.home": "/usr/lib/jvm/jdk-12.0.2"`
-
-(This may be helpful in case you have not set it yet.)
-
 Considering you have downloaded JavaFX SDK,
 
 - Place these scripts in your JavaFX project directory
