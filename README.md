@@ -29,7 +29,7 @@ Considering you have downloaded JavaFX SDK,
     - `echo $MAIN_CLASS`
 - Run `bash buildapp.sh` or `./buildapp.sh` to build your app
 - Run `bash buildrun.sh` or `./buildrun.sh` to build and run your app
-- Run `bash runapp.sh` or `./runapp.sh`* to run the app if it is already built and has not been modified.
+- Run `bash runapp.sh` or `./runapp.sh` to run the app if it is already built and has not been modified.
 
 To make script executable: `chmod +x <script_name>`
 
