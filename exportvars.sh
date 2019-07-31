@@ -12,6 +12,10 @@ export JAVA_FILES=src/*.java
 # will be '/javafx-sdk-11.0.2/lib'
 export PATH_TO_FX=/path/to/your/javafx-sdk/lib
 
+# Add JavaFX modules that you use in your project (comma-separated),
+# or remove javafx.fxml if you will not use FXML 
+export JAVA_FX_MODULES=javafx.controls,javafx.fxml
+
 # Provide the name of the folder where your .class files will be put 
 # when you compile your .java files
 export OUTPUT_FOLDER=bin
