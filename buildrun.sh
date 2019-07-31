@@ -1,5 +1,5 @@
-!#/bin/bash
-# Build and run app
+#!/bin/bash
 
+# BUILD AND RUN THE APP #
 bash buildapp.sh
 bash runapp.sh

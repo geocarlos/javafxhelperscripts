@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# EXPORT VARIABLES #
+
 # Provide your .java directory and ClassName.java to compile a single class 
 # or *.java to compile everything
 export JAVA_FILES=src/*.java
