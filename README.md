@@ -1,6 +1,8 @@
 # JAVAFX HELPER SCRIPTS
 ## BASH SCRIPTS TO USE JAVAFX WITH JDK 11 OR HIGHER
 
+### Please note that these scripts will not work on Windows
+
 JDK 10 was the last to be shipped with JavaFX included. Whereas it is not so hard to include it with JDK 11 or 12 when using an IDE, such as Intellij IDEA, it is kind of challenging if, like me, you prefer to use something lighter, such as Visual Studio Code.
 
 This set of script may help you build and run JavaFX apps using JDK 11 or 12.
@@ -11,6 +13,7 @@ Considering you have downloaded JavaFX SDK,
 
 - Place these scripts in your JavaFX project directory
 - Edit `exportvars.sh` file according to your settings
+- In case you are using Visual Studio Code, you may want to set a task, which you may run with `Ctrl+Shift+B`. If so, you may add the file `tasks.json` to the `.vscode` of your project. You may change it according to your preferences. 
 - When you are done, open a terminal in the same directory 
 (you may want to open it from VS Code)
 - In the terminal, run the command `source exportvars.sh`
