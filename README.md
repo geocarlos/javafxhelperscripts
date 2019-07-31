@@ -29,9 +29,11 @@ Considering you have downloaded JavaFX SDK,
     - `echo $MAIN_CLASS`
 - Run `bash buildapp.sh` or `./buildapp.sh` to build your app
 - Run `bash buildrun.sh` or `./buildrun.sh` to build and run your app
-- Run `bash runapp.sh` or `./runapp.sh` to run the app if it is already built and has not been modified.
+- Run `bash runapp.sh` or `./runapp.sh`* to run the app if it is already built and has not been modified.
 
-These scripts have been tested on Linux Mint Silvia (based on Ubuntu 16.04)
+To make script executable: `chmod +x <script_name>`
+
+These scripts have been tested on Linux Mint Sylvia (based on Ubuntu 16.04)
 
 Please note that I am a new developer (although I'm not a young man). If you are a developer and you think these scripts are helpful, and you have ideas to make them better, please feel free to check how to contact me on [LinkedIn](https://www.linkedin.com/in/geocarlos-alves-07a50377/) so we may discuss it. :)
 
