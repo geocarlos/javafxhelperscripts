@@ -14,12 +14,13 @@ Considering you have downloaded JavaFX SDK,
 - When you are done, open a terminal in the same directory 
 (you may want to open it from VS Code)
 - In the terminal, run the command `source exportvars.sh`
-- In case you want to check if the variables a set properly, run:
+- In case you want to check if the variables are set properly, run:
     - `echo $JAVA_FILES` 
     - `echo $PATH_TO_FX` 
     - `echo $OUTPUT_FOLDER` 
     - `echo $CLASS_PATH` 
     - `echo $MAIN_CLASS`
+    - `echo $JAVA_FX_MODULES`
 - Run `bash buildapp.sh` or `./buildapp.sh` to build your app
 - Run `bash buildrun.sh` or `./buildrun.sh` to build and run your app
 - Run `bash runapp.sh` or `./runapp.sh` to run the app if it is already built and has not been modified.
