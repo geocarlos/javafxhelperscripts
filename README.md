@@ -3,6 +3,8 @@
 
 #### | Please note that these scripts are for Linux will not work on Windows |
 
+*These scripts may be helpful just to test small things, when you don't want to set up a Maven or Gradle project. For a project, you may set it up with Maven or Gradlle. I prefer Maven :)*
+
 JDK 10 was the last to be shipped with JavaFX included. Whereas it is not so hard to include it with JDK 11 or 12 when using an IDE, such as Intellij IDEA, it is kind of challenging if, like me, you prefer to use something lighter, such as Visual Studio Code.
 
 This set of script may help you build and run JavaFX apps using JDK 11 or 12.
@@ -31,6 +33,3 @@ Considering you have downloaded JavaFX SDK,
 To make script executable: `chmod +x <script_name>`
 
 These scripts have been tested on Linux Mint Sylvia (based on Ubuntu 16.04)
-
-Please note that I am a new developer (although I'm not a young man). If you are a developer and you think these scripts are helpful, and you have ideas to make them better, please feel free to check how to contact me on [LinkedIn](https://www.linkedin.com/in/geocarlos-alves-07a50377/) so we may discuss it. :)
-
